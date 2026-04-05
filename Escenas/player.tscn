@@ -8,6 +8,7 @@ size = Vector2(36, 128)
 
 [node name="Player" type="CharacterBody2D" unique_id=1623280530]
 script = ExtResource("1_i8vih")
+metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=966908458]
 position = Vector2(356.5, 301)
