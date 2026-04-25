@@ -6,16 +6,51 @@
 [node name="main" type="Node2D" unique_id=903634257]
 
 [node name="Player" parent="." unique_id=1623280530 instance=ExtResource("1_vt1rs")]
-position = Vector2(-5, 19)
+position = Vector2(1134, 488)
+scale = Vector2(0.6400012, 0.71999997)
 
 [node name="plataforma" parent="." unique_id=730121044 instance=ExtResource("2_0kh0y")]
+modulate = Color(0, 0, 0, 1)
 position = Vector2(599.00006, 712.00006)
 scale = Vector2(-14.424539, -0.61406636)
 
 [node name="plataforma" parent="plataforma" unique_id=1953274280 instance=ExtResource("2_0kh0y")]
-position = Vector2(40.76387, 369.66696)
-scale = Vector2(0.04274951, 10.026775)
+position = Vector2(46.587284, 646.51)
+scale = Vector2(-0.1406486, 15.6078205)
 
 [node name="plataforma2" parent="plataforma" unique_id=617255347 instance=ExtResource("2_0kh0y")]
+modulate = Color(0, 0, 0, 1)
 position = Vector2(-45.68603, 337.09726)
-scale = Vector2(0.04626965, 10.420601)
+scale = Vector2(-0.06009952, 14.177795)
+
+[node name="plataforma4" parent="plataforma" unique_id=253847222 instance=ExtResource("2_0kh0y")]
+position = Vector2(35.703053, 423.40714)
+scale = Vector2(0.012452377, 13.020502)
+
+[node name="plataforma6" parent="plataforma" unique_id=1283870037 instance=ExtResource("2_0kh0y")]
+position = Vector2(-2.0104575, 952.6659)
+scale = Vector2(0.011247173, 3.6879358)
+
+[node name="plataforma7" parent="plataforma" unique_id=528318159 instance=ExtResource("2_0kh0y")]
+position = Vector2(-5.3381205, 506.4599)
+scale = Vector2(0.26137775, 0.16859348)
+
+[node name="plataforma12" parent="plataforma" unique_id=971068664 instance=ExtResource("2_0kh0y")]
+position = Vector2(15.598427, 983.6072)
+scale = Vector2(0.087607525, -0.22089183)
+
+[node name="plataforma13" parent="plataforma" unique_id=793525017 instance=ExtResource("2_0kh0y")]
+position = Vector2(-18.163488, 931.49554)
+scale = Vector2(0.12643026, -0.22089183)
+
+[node name="plataforma11" parent="plataforma" unique_id=1528939421 instance=ExtResource("2_0kh0y")]
+position = Vector2(-1.5251728, 723.049)
+scale = Vector2(0.087607525, -0.22089183)
+
+[node name="plataforma9" parent="plataforma" unique_id=1480335090 instance=ExtResource("2_0kh0y")]
+position = Vector2(-21.005865, 719.79205)
+scale = Vector2(-0.013562908, 3.2106025)
+
+[node name="plataforma10" parent="plataforma" unique_id=1754974235 instance=ExtResource("2_0kh0y")]
+position = Vector2(10.814909, 740.96234)
+scale = Vector2(0.012552064, 3.673461)

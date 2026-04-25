@@ -11,10 +11,10 @@ script = ExtResource("1_i8vih")
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=966908458]
-position = Vector2(356.5, 301)
+position = Vector2(-0.55293655, 3.8146973e-06)
 scale = Vector2(0.2734375, 1)
 texture = ExtResource("1_cnkc8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1830560717]
-position = Vector2(356.5, 301)
+position = Vector2(-0.55293655, 3.528595e-05)
 shape = SubResource("RectangleShape2D_i8vih")

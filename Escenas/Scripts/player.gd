@@ -1,11 +1,11 @@
 extends CharacterBody2D
 
 
-const SPEED = 400.0
+const SPEED = 350.0
 const JUMP_VELOCITY = -450.0
-const JUMP_PUSHBACK = 250
+const JUMP_PUSHBACK = 200
 
-const WALL_SLIDE_GRAVITY = 150
+const WALL_SLIDE_GRAVITY = 450
 var is_wall_sliding = false
 var is_wall_jumping = false
 var wall_jump_timer = 0.0
@@ -66,5 +66,5 @@ func wall_slide(delta):
 		is_wall_sliding = false
 		
 	if is_wall_sliding:
-		velocity.y += (WALL_SLIDE_GRAVITY * delta)
+		velocity.y -= (WALL_SLIDE_GRAVITY * delta)
 		velocity.y = min(velocity.y, WALL_SLIDE_GRAVITY)
