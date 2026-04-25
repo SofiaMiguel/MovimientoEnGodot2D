@@ -9,5 +9,13 @@
 position = Vector2(-5, 19)
 
 [node name="plataforma" parent="." unique_id=730121044 instance=ExtResource("2_0kh0y")]
-position = Vector2(638, 724.00006)
+position = Vector2(599.00006, 712.00006)
 scale = Vector2(-14.424539, -0.61406636)
+
+[node name="plataforma" parent="plataforma" unique_id=1953274280 instance=ExtResource("2_0kh0y")]
+position = Vector2(40.76387, 369.66696)
+scale = Vector2(0.04274951, 10.026775)
+
+[node name="plataforma2" parent="plataforma" unique_id=617255347 instance=ExtResource("2_0kh0y")]
+position = Vector2(-45.68603, 337.09726)
+scale = Vector2(0.04626965, 10.420601)
